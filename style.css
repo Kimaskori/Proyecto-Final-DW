@@ -50,47 +50,49 @@ html{
     height: 100vh;
 }
 .formulario{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    background-image: url(https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg);
-    border-radius: 10px;
-}
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        border-radius: 10px;
+        background-image: url(https://i.redd.it/iyaacpwpwfr41.png);
+        
+    }
 .formulario h1{
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
-}
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid silver;
+    }
 .username{
-    padding: 0 0 10px 0;
-    position: relative;
-    left: 10px;
-}
+        padding: 0 0 10px 0;
+        position: relative;
+        left: 10px;
+    }
 .password{
-    padding: 0 0 10px 0;
-    position: relative;
-    left: 10px;
-}
+        padding: 0 0 10px 0;
+        position: relative;
+        left: 10px;
+    }
 .iniciar{
-    padding: 0 0 5px 0;
-    position: relative;
-    left: 10px;
-}
+        padding: 0 0 5px 0;
+        position: relative;
+        left: 10px;
+    }
 .olvidar{
-    position: relative;
-    left: 10px;
-    padding: 0 0 5px 0;
-}
+        position: relative;
+        left: 10px;
+        padding: 0 0 5px 0;
+    }
 .registrarse{
-    position: relative;
-    left: 10px;
-}
+        position: relative;
+        left: 10px;
+    }
 .volver{
-    position: relative;
-    left: 10px;
-}
-.texto-aporte{
-    color: white;
-}
+        position: relative;
+        left: 10px;
+    }
+    .texto-aporte{
+        color: white;
+    }
