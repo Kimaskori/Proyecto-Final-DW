@@ -1,3 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'valorant';
+}
+@font-face {
+    font-family: 'valorant';
+    src: url(./fuentes/Valorant\ Font.ttf);
+}
 html{
     background-color: black;
+}
+.textos{
+    color: #FF4654;
+    padding: 0;
+    margin: 0;
+}
+.titulo{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 2%;
+}
+.background{
+    background-color: black;
+}
+.carrusel{
+    padding: 200px;
+    padding-top: 100px;
+}
+.imagen{
+    margin-left: 30%;
+}
+.texto-carrusel{
+
+}
+.div-carrusel{
+    display: flex;
+    margin: 100px;
+}
+.info{
+    padding-bottom: 50px;
+}
+.skins-home{
+    text-align: center;
+    position: relative;
 }
