@@ -67,6 +67,7 @@ html{
         left: 50%;
         transform: translate(-50%, -50%);
         width: 400px;
+        height: 250px;
         background: white;
         border-radius: 10px;
         background-image: url(https://i.redd.it/iyaacpwpwfr41.png);
