@@ -11,6 +11,9 @@
 html{
     background-color: black;
 }
+.logo-home{
+    border-radius: 10px;
+}
 .textos{
     color: #FF4654;
     padding: 0;
@@ -25,25 +28,34 @@ html{
 .background{
     background-color: black;
 }
-.carrusel{
-    padding: 150px;
+.section-home{
+    background-color: black;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    
 }
 .imagen{
+    position: relative;
+    left: 20%;
+    padding: 40px;
+    width: 650px;
 }
-.div-imagen{
-}
-.texto-carrusel{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.div-carrusel{
+.sheriff{
+    width: 450px;
 }
 .info{
     padding-bottom: 50px;
-    font-size: 100%;
+    font-size: 120%;
 }
 .skins-home{
+    margin: 0px;
+    background-color: black;
+    color: #FF4654;
     text-align: center;
+}
+.texto-footer{
+    color: #FF4654;
 }
 .aportes{
     background: linear-gradient(150deg, red, black);
