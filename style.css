@@ -118,12 +118,16 @@ html{
 .logo-ig{
     width: 40px;
 }
+.imagen-vandal{
+    background-color: red;
+}
+.section-vandal{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
 @media (max-width:700px){
     .section-home{
         display: grid;
         margin: auto;;
-    }
-}
-    .formulario{
-        width: 50%;
     }
