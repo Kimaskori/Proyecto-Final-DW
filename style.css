@@ -158,6 +158,16 @@ html{
 .footer-vandal{
     background-color: white;
 }
+.body-todas-las-armas{
+    background-color: black;
+}
+.proximamente{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF4654;
+}
 @media (max-width:1000px){
     .info-vandal{
         display: none;
@@ -167,6 +177,9 @@ html{
     }
 }
 @media (max-width:700px){
+    .section-home{
+         display: grid;
+    }
     .main-vandal{
         justify-content: center;
     }
