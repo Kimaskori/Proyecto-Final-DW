@@ -152,9 +152,6 @@ html{
 .footer-vandal{
     background-color: white;
 }
-.footer-home{
-    background: linear-gradient(to top , white , rgb(20, 20, 20));
-}
 @media (max-width:1000px){
     .info-vandal{
         display: none;
