@@ -109,12 +109,6 @@ html{
 .texto-aporte{
     color: white;
 }
-.footer-home{
-    display: flex;
-    flex-direction: row;
-    width:100%;
-    height:100px;
-    background-color: #FF4654;}
 .logo-ig{
     width: 40px;
 }
@@ -154,6 +148,12 @@ html{
 }
 .info-vandal{
     margin: 170px 0 0 0;
+}
+.footer-vandal{
+    background-color: white;
+}
+.footer-home{
+    background: linear-gradient(to top , white , rgb(20, 20, 20));
 }
 @media (max-width:1000px){
     .info-vandal{
