@@ -127,7 +127,9 @@ html{
     height: 200px;
     margin: 50px;
     background-image: url(https://dotesports.com/wp-content/uploads/2024/01/Kuronami_Vandal.png?w=640);
-    background-size: cover;
+    background-size: 100%;
+    box-shadow: 0 0 40px 0;
+    border-radius: 10px;
     
 }
 .vandal-gaia{
@@ -135,7 +137,9 @@ html{
     height: 200px;
     margin: 50px;
     background-image: url(https://dotesports.com/wp-content/uploads/2023/05/GaiaVandal.png?w=640);
-    background-size: cover;
+    background-size: 100%;
+    box-shadow: 0 0 40px 0;
+    border-radius: 10px;
    
 }
 .vandal-primodium{
@@ -143,7 +147,9 @@ html{
     height: 200px;
     margin: 50px;
     background-image: url(https://images.gamebanana.com/img/ss/mods/6631d2fd0e13c.jpg);
-    background-size: cover;
+    background-size: 100%;
+    box-shadow: 0 0 40px 0;
+    border-radius: 10px;
     
 }
 .info-vandal{
@@ -161,20 +167,23 @@ html{
     }
 }
 @media (max-width:700px){
-    .section-home{
-        display: grid;
-        margin: auto;;
-    }
-    .info-vandal{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
     .main-vandal{
         justify-content: center;
     }
     .info-vandal{
         display: none;
+    }
+    .vandal-kuronami{
+        width: 300px;
+        height: 100px;
+        
+    }
+    .vandal-gaia{
+        width: 300px;
+        height: 100px;
+    }
+    .vandal-primodium{
+        width: 300px;
+        height: 100px;
     }
 }
