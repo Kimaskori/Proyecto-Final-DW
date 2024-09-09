@@ -37,10 +37,6 @@ html {
   width: 80%;
 }
 
-.sheriff {
-  width: 60%;
-}
-
 .info {
   padding-bottom: 50px;
   font-size: 120%;
@@ -90,6 +86,193 @@ html {
 
 .texto-footer {
   color: #FF4654;
+}
+
+.nav-link {
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #FF4654;
+  transition: 1s;
+}
+
+.nav-link:active {
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.logo-home:hover {
+  width: 65px;
+  height: 65px;
+  box-shadow: 0 0 5px 5px grey;
+  transition-duration: 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #FF4654;
+  transition-duration: 1s;
+}
+
+.imagen:hover {
+  background-color: #FF4654;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+
+.bi-icon:hover {
+  background-color: #FF4654;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+.h1-vandal {
+  color: #FF4654;
+  text-align: center;
+  border-bottom: solid white 1px;
+  padding: 30px;
+}
+
+.main-vandal {
+  display: flex;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.vandal-kuronami {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://dotesports.com/wp-content/uploads/2024/01/Kuronami_Vandal.png?w=640);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+}
+
+.vandal-gaia {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://dotesports.com/wp-content/uploads/2023/05/GaiaVandal.png?w=640);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+}
+
+.vandal-primodium {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://images.gamebanana.com/img/ss/mods/6631d2fd0e13c.jpg);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+}
+
+.info-vandal {
+  margin: 170px 0 0 0;
+}
+
+footer {
+  border-top: 1px solid white;
+}
+
+.phantom-oni {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://dotesports.com/wp-content/uploads/2023/08/Oni_Phantom.png?w=640);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+  background-position: 5px;
+}
+
+.phantom-recon {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://valorantstrike.com/wp-content/uploads/2021/08/Valorant-Recon-Collection-Phantom-HD.jpg);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+  background-position: 5px;
+}
+
+.phantom-entertainment {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://valorantstrike.com/wp-content/uploads/Valorant-Radiant-Entertainment-System-Collection-Phantom-HD.jpg);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+}
+
+.operator-ion {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://dotesports.com/wp-content/uploads/2023/05/Ion-Operator-1.jpg?w=640);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+  background-position: 5px;
+}
+
+.operator-origin {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://valorantstrike.com/wp-content/uploads/2021/06/Valorant-Origin-Collection-Operator-HD.jpg);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+}
+
+.operator-reaver {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://fbi.cults3d.com/uploaders/21595173/illustration-file/6ebf839e-78f3-45e6-833f-82cd00b6a4aa/reaver-operator-white-ingame_orig.jpg);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+  background-position: 5px;
+}
+
+.sheriff-arcane {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://playerassist.com/wp-content/uploads/2023/09/image-150-8.jpg);
+  background-size: 140%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+  background-position: center;
+}
+
+.sheriff-nf {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://dotesports.com/wp-content/uploads/2023/08/Neo_Frontier_Sheriff.png?w=640);
+  background-size: 100%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
+  background-position: 5px;
+}
+
+.sheriff-kuronami {
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  background-image: url(https://www.sirknightj.com/blog/wp-content/uploads/2024/04/Kuronami-Sheriff.png);
+  background-size: 90%;
+  box-shadow: 0 0 40px 0;
+  border-radius: 10px;
 }
 
 .aportes {

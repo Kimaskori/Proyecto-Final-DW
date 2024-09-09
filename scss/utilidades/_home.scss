@@ -30,9 +30,6 @@ html{
     padding: 40px;
     width: 80%;
 }
-.sheriff{
-    width: 60%;
-}
 .info{
     padding-bottom: 50px;
     font-size: 120%;
@@ -79,4 +76,38 @@ html{
 }
 .texto-footer{
     color: #FF4654;
+}
+.nav-link{
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: #FF4654;
+    transition: 1s; 
+}
+.nav-link:active{
+    color: white;
+    transition-duration: .2s;
+}
+.logo-home:hover{
+    width: 65px;
+    height: 65px;
+    box-shadow: 0 0 5px 5px grey;
+    transition-duration: .3s;
+}
+.dropdown-item:hover{
+    background-color: #FF4654;
+    transition-duration: 1s;
+}
+.imagen:hover{
+    background-color: #FF4654;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.bi-icon:hover{
+    background-color: #FF4654;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .3s;
 }

@@ -1,0 +1,44 @@
+.h1-vandal{
+    color: #FF4654;
+    text-align: center;
+    border-bottom: solid white 1px;
+    padding: 30px;
+}
+.main-vandal{
+    display: flex;  
+    letter-spacing: 20px;
+    text-align: center;
+}
+.vandal-kuronami{
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    background-image: url(https://dotesports.com/wp-content/uploads/2024/01/Kuronami_Vandal.png?w=640);
+    background-size: 100%;
+    box-shadow: 0 0 40px 0;
+    border-radius: 10px;
+}
+.vandal-gaia{
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    background-image: url(https://dotesports.com/wp-content/uploads/2023/05/GaiaVandal.png?w=640);
+    background-size: 100%;
+    box-shadow: 0 0 40px 0;
+    border-radius: 10px;
+}
+.vandal-primodium{
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    background-image: url(https://images.gamebanana.com/img/ss/mods/6631d2fd0e13c.jpg);
+    background-size: 100%;
+    box-shadow: 0 0 40px 0;
+    border-radius: 10px;
+}
+.info-vandal{
+    margin: 170px 0 0 0;
+}
+footer{
+    border-top: 1px solid white;
+}

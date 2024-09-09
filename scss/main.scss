@@ -1,12 +1,19 @@
 
 /*estilos del home*/
-// import del home
-@import "utilidades/_home";
 // import de variables
 @import "utilidades/_variables";
 //import de mixin
 @import "utilidades/mixin";
-
+// import del home
+@import "utilidades/_home";
+//import de vandal
+@import "utilidades/vandal";
+//import de phantom
+@import "utilidades/phantom";
+//import de operator
+@import "utilidades/operator";
+//import de sheriff
+@import "utilidades/sheriff";
 //nesting + mixin aportes
 .aportes{
     background: linear-gradient(150deg, red, black);
