@@ -15,6 +15,10 @@ html {
   background-color: black;
 }
 
+.logo-home {
+  border-radius: 10px;
+}
+
 .background {
   background-color: black;
 }
@@ -53,7 +57,8 @@ html {
   background-color: black;
 }
 .main-home h1 {
-  padding: 10px 0 0 0;
+  font-size: 50px;
+  padding: 60px;
   text-align: center;
   border-bottom: 1px solid;
 }
@@ -61,14 +66,30 @@ html {
   padding-top: 20px;
   text-align: center;
 }
+.main-home p {
+  border-bottom: 1px solid #FF4654;
+}
+.main-home .section-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .main-home .section-home div {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: auto;
 }
 .main-home .section-home .imagen {
-  width: 600px;
-  margin: 50px;
+  width: 100%;
+  position: relative;
+  left: 10px;
+  margin: 20px;
+}
+.main-home .section-home .sheriff {
+  width: 90%;
+}
+
+.texto-footer {
+  color: #FF4654;
 }
 
 .aportes {
@@ -103,6 +124,88 @@ html {
 }
 .aportes .volver {
   padding: 0 0 10px 10px;
+}
+
+@media (max-width: 1000px) {
+  .info-vandal {
+    display: none;
+  }
+  .main-vandal {
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .section-home {
+    display: none;
+  }
+  .main-vandal {
+    justify-content: center;
+  }
+  .info-vandal {
+    display: none;
+  }
+  .vandal-kuronami {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .vandal-gaia {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .vandal-primodium {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .phantom-oni {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .phantom-recon {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .phantom-entertainment {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+    background-position: 5px;
+  }
+  .operator-ion {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .operator-origin {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+    background-position: 3px;
+  }
+  .operator-reaver {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .sheriff-arcane {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .sheriff-nf {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
+  .sheriff-kuronami {
+    width: 300px;
+    height: 100px;
+    letter-spacing: normal;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

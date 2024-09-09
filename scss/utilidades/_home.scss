@@ -12,6 +12,9 @@
 html{
     background-color: black;
 }
+.logo-home{
+    border-radius: 10px;
+}
 .background{
     background-color: black;
 }
@@ -43,7 +46,8 @@ html{
 .main-home{
     background-color: black;
     h1{
-        padding: 10px 0 0 0;
+        font-size: 50px;
+        padding: 60px;
         text-align: center;
         border-bottom: 1px solid;
     }
@@ -51,15 +55,28 @@ html{
         padding-top: 20px;
         text-align: center;
     }
+    p{
+        border-bottom: 1px solid #FF4654;
+    }
     .section-home{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         div{
             display: grid;
             grid-template-columns: 50% 50%;
-            margin: auto;
         }
         .imagen{
-            width: 600px;
-            margin: 50px;
+            width: 100%;
+            position: relative;
+            left: 10px;
+            margin: 20px;
+        }
+        .sheriff{
+            width: 90%;
         }
     }
+}
+.texto-footer{
+    color: #FF4654;
 }

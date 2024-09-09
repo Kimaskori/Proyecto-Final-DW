@@ -1,0 +1,83 @@
+@media (max-width:1000px){
+    .info-vandal{
+        display: none;
+    }
+    .main-vandal{
+        justify-content: center;
+    }
+}
+@media (max-width:700px){
+
+    .section-home{
+        display: none;
+     }
+    .main-vandal{
+        justify-content: center;
+    }
+    .info-vandal{
+        display: none;
+    }
+    .vandal-kuronami{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+        
+    }
+    .vandal-gaia{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .vandal-primodium{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .phantom-oni{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .phantom-recon{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .phantom-entertainment{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+        background-position: 5px;
+    }
+    .operator-ion{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .operator-origin{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+        background-position: 3px;
+    }
+    .operator-reaver{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .sheriff-arcane{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .sheriff-nf{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+    .sheriff-kuronami{
+        width: 300px;
+        height: 100px;
+        letter-spacing: normal;
+    }
+}
