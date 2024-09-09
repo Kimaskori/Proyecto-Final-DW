@@ -1,339 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'valorant';
+/*estilos del home*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "valorant";
+  color: #FF4654;
 }
+
 @font-face {
-    font-family: 'valorant';
-    src: url(./fuentes/Valorant\ Font.ttf);
+  font-family: "valorant";
+  src: url(./fuentes/Valorant\ Font.ttf);
 }
-html{
-    background-color: black;
+html {
+  background-color: black;
 }
-.logo-home{
-    border-radius: 10px;
+
+.background {
+  background-color: black;
 }
-.textos{
-    color: #FF4654;
-    padding: 0;
-    margin: 0;
+
+.section-home {
+  background-color: black;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: row;
 }
-.titulo{
-    background-color: black;
-    text-align: center;
-    margin-bottom: 1px;
-    padding: 2%;
+
+.imagen {
+  position: relative;
+  left: 20%;
+  padding: 40px;
+  width: 80%;
 }
-.background{
-    background-color: black;
+
+.sheriff {
+  width: 60%;
 }
-.section-home{
-    background-color: black;
-    padding-bottom: 200px;
-    display: flex;
-    flex-direction: row;
-    
+
+.info {
+  padding-bottom: 50px;
+  font-size: 120%;
 }
-.imagen{
-    position: relative;
-    left: 20%;
-    padding: 40px;
-    width: 80%;
+
+.skins-home {
+  margin: 0px;
+  background-color: black;
+  color: #FF4654;
+  text-align: center;
 }
-.sheriff{
-    width: 60%;
+
+.main-home {
+  background-color: black;
 }
-.info{
-    padding-bottom: 50px;
-    font-size: 120%;
+.main-home h1 {
+  padding: 10px 0 0 0;
+  text-align: center;
+  border-bottom: 1px solid;
 }
-.skins-home{
-    margin: 0px;
-    background-color: black;
-    color: #FF4654;
-    text-align: center;
+.main-home h2 {
+  padding-top: 20px;
+  text-align: center;
 }
-.texto-footer{
-    color: #FF4654;
+.main-home .section-home div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
 }
-.aportes{
-    background: linear-gradient(150deg, red, black);
-    height: 100vh;
+.main-home .section-home .imagen {
+  width: 600px;
+  margin: 50px;
 }
-.formulario{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 400px;
-        height: 250px;
-        background: white;
-        border-radius: 10px;
-        background-image: url(https://i.redd.it/iyaacpwpwfr41.png);
-        
-    }
-.formulario h1{
-        text-align: center;
-        padding: 0 0 20px 0;
-        border-bottom: 1px solid silver;
-    }
-.username{
-        padding: 0 0 10px 0;
-        position: relative;
-        left: 10px;
-    }
-.password{
-        padding: 0 0 10px 0;
-        position: relative;
-        left: 10px;
-    }
-.iniciar{
-        padding: 0 0 5px 0;
-        position: relative;
-        left: 10px;
-    }
-.olvidar{
-        position: relative;
-        left: 10px;
-        padding: 0 0 5px 0;
-    }
-.registrarse{
-        position: relative;
-        left: 10px;
-    }
-.volver{
-        position: relative;
-        left: 10px;
-    }
-.texto-aporte{
-    color: white;
+
+.aportes {
+  background: linear-gradient(150deg, red, black);
+  height: 100vh;
+  color: #FF4654;
 }
-.logo-ig{
-    width: 40px;
+.aportes .formulario {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 250px;
+  background: white;
+  border-radius: 10px;
+  background-image: url(https://i.redd.it/iyaacpwpwfr41.png);
 }
-.h1-vandal{
-    text-align: center;
-    border-bottom: solid white 1px;
+.aportes .formulario h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
 }
-.main-vandal{
-    display: flex;  
-    letter-spacing: 20px;
-    text-align: center;
-    
+.aportes .username {
+  padding: 10px 0 10px 10px;
 }
-.vandal-kuronami{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://dotesports.com/wp-content/uploads/2024/01/Kuronami_Vandal.png?w=640);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    
+.aportes .iniciar {
+  padding: 0 0 10px 10px;
 }
-.vandal-gaia{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://dotesports.com/wp-content/uploads/2023/05/GaiaVandal.png?w=640);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-   
+.aportes .registrarse {
+  padding: 0 0 10px 10px;
 }
-.vandal-primodium{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://images.gamebanana.com/img/ss/mods/6631d2fd0e13c.jpg);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    
+.aportes .volver {
+  padding: 0 0 10px 10px;
 }
-.info-vandal{
-    margin: 170px 0 0 0;
-}
-.footer-vandal{
-    background-color: white;
-}
-.phantom-oni{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://dotesports.com/wp-content/uploads/2023/08/Oni_Phantom.png?w=640);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    background-position: 5px;
-}
-.phantom-recon{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://valorantstrike.com/wp-content/uploads/2021/08/Valorant-Recon-Collection-Phantom-HD.jpg);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    background-position: 5px;
-}
-.phantom-entertainment{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://valorantstrike.com/wp-content/uploads/Valorant-Radiant-Entertainment-System-Collection-Phantom-HD.jpg);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-}
-.operator-ion{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://dotesports.com/wp-content/uploads/2023/05/Ion-Operator-1.jpg?w=640);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    background-position: 5px;
-}
-.operator-origin{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://valorantstrike.com/wp-content/uploads/2021/06/Valorant-Origin-Collection-Operator-HD.jpg);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-}
-.operator-reaver{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://fbi.cults3d.com/uploaders/21595173/illustration-file/6ebf839e-78f3-45e6-833f-82cd00b6a4aa/reaver-operator-white-ingame_orig.jpg);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    background-position: 5px;
-}
-.sheriff-arcane{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://playerassist.com/wp-content/uploads/2023/09/image-150-8.jpg);
-    background-size: 140%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    background-position: center;
-}
-.sheriff-nf{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://dotesports.com/wp-content/uploads/2023/08/Neo_Frontier_Sheriff.png?w=640);
-    background-size: 100%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-    background-position: 5px;
-}
-.sheriff-kuronami{
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    background-image: url(https://www.sirknightj.com/blog/wp-content/uploads/2024/04/Kuronami-Sheriff.png);
-    background-size: 90%;
-    box-shadow: 0 0 40px 0;
-    border-radius: 10px;
-}
-.body-todas-las-armas{
-    background-color: black;
-}
-.proximamente{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FF4654;
-}
-@media (max-width:1000px){
-    .info-vandal{
-        display: none;
-    }
-    .main-vandal{
-        justify-content: center;
-    }
-}
-@media (max-width:700px){
-    .section-home{
-         display: grid;
-    }
-    .main-vandal{
-        justify-content: center;
-    }
-    .info-vandal{
-        display: none;
-    }
-    .vandal-kuronami{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-        
-    }
-    .vandal-gaia{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .vandal-primodium{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .phantom-oni{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .phantom-recon{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .phantom-entertainment{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-        background-position: 5px;
-    }
-    .operator-ion{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .operator-origin{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-        background-position: 3px;
-    }
-    .operator-reaver{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .sheriff-arcane{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .sheriff-nf{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-    .sheriff-kuronami{
-        width: 300px;
-        height: 100px;
-        letter-spacing: normal;
-    }
-}
+
+/*# sourceMappingURL=style.css.map */
