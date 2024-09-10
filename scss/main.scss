@@ -14,9 +14,11 @@
 @import "utilidades/operator";
 //import de sheriff
 @import "utilidades/sheriff";
+//import de mediaquery
+@import "utilidades/mediaquery";
 //nesting + mixin aportes
 .aportes{
-    background: linear-gradient(150deg, red, black);
+    background: radial-gradient($color_principal, black);
     height: 100vh;
     color: $color-principal;
     .formulario{
@@ -47,8 +49,10 @@
     .volver{
         @include padding
     }
-    
 }
-
-//responsive
-@import "utilidades/_mediaquery"
+.iniciar input:hover{
+    background-color: black;
+    color: white;
+    height: 50px;
+    transition-duration: 1s;
+}

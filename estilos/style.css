@@ -275,40 +275,6 @@ footer {
   border-radius: 10px;
 }
 
-.aportes {
-  background: linear-gradient(150deg, red, black);
-  height: 100vh;
-  color: #FF4654;
-}
-.aportes .formulario {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  height: 250px;
-  background: white;
-  border-radius: 10px;
-  background-image: url(https://i.redd.it/iyaacpwpwfr41.png);
-}
-.aportes .formulario h1 {
-  text-align: center;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid silver;
-}
-.aportes .username {
-  padding: 10px 0 10px 10px;
-}
-.aportes .iniciar {
-  padding: 0 0 10px 10px;
-}
-.aportes .registrarse {
-  padding: 0 0 10px 10px;
-}
-.aportes .volver {
-  padding: 0 0 10px 10px;
-}
-
 @media (max-width: 1000px) {
   .info-vandal {
     display: none;
@@ -389,6 +355,46 @@ footer {
     height: 100px;
     letter-spacing: normal;
   }
+}
+.aportes {
+  background: radial-gradient(#FF4654, black);
+  height: 100vh;
+  color: #FF4654;
+}
+.aportes .formulario {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 250px;
+  background: white;
+  border-radius: 10px;
+  background-image: url(https://i.redd.it/iyaacpwpwfr41.png);
+}
+.aportes .formulario h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+.aportes .username {
+  padding: 10px 0 10px 10px;
+}
+.aportes .iniciar {
+  padding: 0 0 10px 10px;
+}
+.aportes .registrarse {
+  padding: 0 0 10px 10px;
+}
+.aportes .volver {
+  padding: 0 0 10px 10px;
+}
+
+.iniciar input:hover {
+  background-color: black;
+  color: white;
+  height: 50px;
+  transition-duration: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
