@@ -1,23 +1,32 @@
-
-/*estilos del home*/
 // import de variables
 @import "utilidades/_variables";
 //import de mixin
 @import "utilidades/mixin";
+/*estilos del home*/
 // import del home
 @import "utilidades/_home";
+/*estilos de vandal*/
 //import de vandal
 @import "utilidades/vandal";
+/*estilos de phantom*/
 //import de phantom
 @import "utilidades/phantom";
+/*estilos de operator*/
 //import de operator
 @import "utilidades/operator";
+/*estilos de sheriff*/
 //import de sheriff
 @import "utilidades/sheriff";
+/*estilos de cuchillo*/
 //import de cuchillo
 @import "utilidades/cuchillo";
+/*estilos de info*/
+//import de info
+@import "utilidades/info";
+/*mediaqueries*/
 //import de mediaquery
 @import "utilidades/mediaquery";
+/*estilos de aportes*/
 //nesting + mixin aportes
 .aportes{
     background: radial-gradient($color_principal, black);
@@ -55,6 +64,8 @@
 .iniciar input:hover{
     background-color: black;
     color: white;
-    height: 50px;
-    transition-duration: 1s;
+    transition-duration: .5s;
+}
+.username input:focus{
+    height: 30px;
 }
